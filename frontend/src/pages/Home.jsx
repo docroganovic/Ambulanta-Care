@@ -463,11 +463,11 @@ const HomePage = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <div className="mb-4 bg-white/10 p-4 rounded-lg inline-block">
+              <div className="mb-4">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/1vbm5prh_Logo%20ambulanta%20care%20navy%20crop.png" 
+                  src="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/5ab3wjxs_Transparent%20logo.png" 
                   alt="Ambulanta Care Logo" 
-                  className="h-14 w-auto"
+                  className="h-16 w-auto"
                 />
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
