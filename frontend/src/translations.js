@@ -46,12 +46,8 @@ export const translations = {
           description: 'Structured health assessments with clinical examination and targeted blood tests to evaluate your general health and to prevent future disease.'
         },
         {
-          title: 'Medical Certificates',
-          description: 'Various medical certificates for work, insurance, and other purposes. Professional documentation provided after clinical assessment.'
-        },
-        {
-          title: 'Sick Leave',
-          description: 'Sick leave certificates with sick leave up to 4 weeks depending on the condition. We do not renew long‑term sick leave certificates.'
+          title: 'Medical Certificates and Sick Leave',
+          description: 'Various medical certificates and sick leave certificates, with sick leave up to 4 weeks depending on the condition. We do not renew long‑term sick leave certificates.'
         }
       ],
       conditionsTitle: 'Management of Common Conditions',
