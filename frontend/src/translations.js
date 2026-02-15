@@ -322,12 +322,16 @@ export const translations = {
         {
           title: 'Sistematski pregledi',
           description: 'Strukturisani sistematski pregledi sa kliničkim pregledom i ciljanim laboratorijskim analizama, radi procene opšteg zdravstvenog stanja i prevencije budućih bolesti.'
+        },
+        {
+          title: 'Lekarska uverenja',
+          description: 'Različita lekarska uverenja za posao, osiguranje i druge svrhe. Profesionalna dokumentacija nakon kliničke procene.'
+        },
+        {
+          title: 'Bolovanja',
+          description: 'Potvrde o bolovanju sa bolovanjem do 4 nedelje u zavisnosti od stanja. Ne produžavamo dugotrajna bolovanja.'
         }
       ],
-      medicalCertificates: {
-        title: 'Lekarska uverenja i bolovanja',
-        description: 'Različita lekarska uverenja i potvrde o bolovanju, sa bolovanjem do 4 nedelje u zavisnosti od stanja. Ne produžavamo dugotrajna bolovanja.'
-      },
       conditionsTitle: 'Stanja koja najčešće lečimo',
       conditionsDescription: 'Lečimo širok spektar uobičajenih oboljenja, uključujući faktore rizika za kardiovaskularne bolesti (povišen krvni pritisak, povišene masnoće), dijabetes tip 2, hipotireozu, gojaznost, hroničnu migrenu i druge glavobolje, astmu, blagu KOPB, anksioznost, blaže do umerene depresije, poremećaje spavanja, gastrointestinalne tegobe i muskuloskeletne bolove.',
       conditionsDescription2: 'To uključuje i akutne infekcije kao što su respiratorne i urinarne infekcije, akutne upale uha, bol u grlu uključujući anginu i sinusitis, kao i infekcije oka i jednostavnije ginekološke infekcije.'
