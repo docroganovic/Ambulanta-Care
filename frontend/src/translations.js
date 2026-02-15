@@ -183,12 +183,16 @@ export const translations = {
         {
           title: 'Hälsokontroll',
           description: 'Strukturerade hälsoundersökningar med klinisk undersökning och riktade blodprover för att bedöma allmänt hälsotillstånd och förebygga framtida sjukdom.'
+        },
+        {
+          title: 'Läkarintyg',
+          description: 'Olika läkarintyg för arbete, försäkring och andra ändamål. Professionell dokumentation utfärdas efter klinisk bedömning.'
+        },
+        {
+          title: 'Sjukskrivning',
+          description: 'Sjukintyg med sjukskrivning upp till 4 veckor beroende på tillstånd. Vi förnyar inte långvariga sjukskrivningar.'
         }
       ],
-      medicalCertificates: {
-        title: 'Läkarintyg och sjukskrivning',
-        description: 'Olika läkarintyg och sjukintyg, med sjukskrivning upp till 4 veckor beroende på tillstånd. Vi förnyar inte långvariga sjukskrivningar.'
-      },
       conditionsTitle: 'Vanliga tillstånd vi behandlar',
       conditionsDescription: 'Vi behandlar ett brett spektrum av vanliga tillstånd, inklusive hjärt‑kärlsriskfaktorer (hypertoni, förhöjda blodfetter), diabetes mellitus typ 2, hypotyreos, obesitas, kronisk migrän och andra huvudvärkstillstånd, astma, mild KOL, ångest, lätt–måttlig depression, sömnproblem, gastrointestinala besvär och muskuloskeletala besvär.',
       conditionsDescription2: 'Detta inkluderar akuta infektioner såsom luftvägs‑ och urinvägsinfektioner, akuta öroninflammationer, halsont inklusive tonsillit och sinuit, samt ögon‑ och enklare gynekologiska infektioner.'
