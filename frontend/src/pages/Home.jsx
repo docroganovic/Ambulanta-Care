@@ -507,7 +507,7 @@ const HomePage = () => {
                 </div>
                 <div className="flex items-start space-x-3">
                   <MapPin className="h-5 w-5 text-gray-300 mt-1" />
-                  <span className="text-gray-300">Lindholmshamnen 23<br />417 56 Gothenburg</span>
+                  <span className="text-gray-300">{t.footer.location}</span>
                 </div>
               </div>
             </div>
