@@ -365,7 +365,7 @@ export const translations = {
         },
         {
           title: 'Video konsultacija',
-          price: '2500 SEK',
+          price: '1500 SEK',
           duration: 'po konsultaciji',
           description: 'Do 60 minuta'
         },
