@@ -450,9 +450,7 @@ const HomePage = () => {
                 </div>
                 <h3 className="text-lg font-bold text-navy-900 mb-2">{t.contact.address}</h3>
                 <p className="text-gray-700">
-                  Lindholmshamnen 23<br />
-                  417 56 Gothenburg<br />
-                  Sweden
+                  {t.contact.addressText}
                 </p>
               </CardContent>
             </Card>
