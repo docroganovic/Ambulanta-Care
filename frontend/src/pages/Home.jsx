@@ -448,9 +448,9 @@ const HomePage = () => {
             <div>
               <div className="mb-4">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/5ab3wjxs_Transparent%20logo.png" 
+                  src="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/bgt7hcwt_Transparent%20logo1.png" 
                   alt="Ambulanta Care Logo" 
-                  className="h-20 w-auto"
+                  className="h-24 w-auto"
                 />
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
