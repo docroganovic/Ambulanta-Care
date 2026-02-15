@@ -373,14 +373,9 @@ const HomePage = () => {
                   <Mail className="h-8 w-8 text-navy-800" />
                 </div>
                 <h3 className="text-lg font-bold text-navy-900 mb-2">{t.contact.email}</h3>
-                <div className="space-y-1">
-                  <a href="mailto:roganovic@dr.com" className="block text-gray-700 hover:text-navy-800 transition-colors">
-                    roganovic@dr.com
-                  </a>
-                  <a href="mailto:ambulanta@dr.com" className="block text-gray-700 hover:text-navy-800 transition-colors">
-                    ambulanta@dr.com
-                  </a>
-                </div>
+                <a href="mailto:ambulanta@dr.com" className="text-gray-700 hover:text-navy-800 transition-colors">
+                  ambulanta@dr.com
+                </a>
               </CardContent>
             </Card>
 
