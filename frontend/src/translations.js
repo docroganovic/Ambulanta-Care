@@ -396,9 +396,10 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Privatna primarna nega i medicina kućnih poseta u Geteborgu',
+      description: 'Ambulanta Care – Private medical services in family and general medicine in Gothenburg.',
       quickLinks: 'Brze veze',
       contactInfo: 'Kontakt informacije',
+      location: 'Geteborg',
       copyright: 'Sva prava zadržana.'
     }
   }
