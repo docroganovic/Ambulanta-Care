@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Ambulanta-Care/static/css/main.421e9218.css",
-    "main.js": "/Ambulanta-Care/static/js/main.beeaee92.js",
+    "main.js": "/Ambulanta-Care/static/js/main.6709cd11.js",
     "index.html": "/Ambulanta-Care/index.html",
     "main.421e9218.css.map": "/Ambulanta-Care/static/css/main.421e9218.css.map",
-    "main.beeaee92.js.map": "/Ambulanta-Care/static/js/main.beeaee92.js.map"
+    "main.6709cd11.js.map": "/Ambulanta-Care/static/js/main.6709cd11.js.map"
   },
   "entrypoints": [
     "static/css/main.421e9218.css",
-    "static/js/main.beeaee92.js"
+    "static/js/main.6709cd11.js"
   ]
 }

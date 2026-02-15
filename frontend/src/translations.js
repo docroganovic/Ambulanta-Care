@@ -126,7 +126,7 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Ambulanta Care – Private medical services in family and general medicine in Gothenburg.',
+      description: 'Ambulanta Care – Private medical services in family and general medicine',
       quickLinks: 'Quick Links',
       contactInfo: 'Contact Info',
       location: 'Gothenburg',
@@ -261,7 +261,7 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Ambulanta Care – Private medical services in family and general medicine in Gothenburg.',
+      description: 'Ambulanta Care – Private medical services in family and general medicine',
       quickLinks: 'Snabblänkar',
       contactInfo: 'Kontaktinformation',
       location: 'Göteborg',
@@ -396,7 +396,7 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Ambulanta Care – Private medical services in family and general medicine in Gothenburg.',
+      description: 'Ambulanta Care – Private medical services in family and general medicine',
       quickLinks: 'Brzi linkovi',
       contactInfo: 'Kontakt informacije',
       location: 'Geteborg',
