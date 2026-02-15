@@ -95,7 +95,7 @@ export const translations = {
         },
         {
           title: 'Video Consultation',
-          price: '2500 SEK',
+          price: '1500 SEK',
           duration: 'per consultation',
           description: 'Up to 60 minutes'
         },
