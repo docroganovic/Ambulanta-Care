@@ -181,12 +181,8 @@ export const translations = {
           description: 'Strukturerade hälsoundersökningar med klinisk undersökning och riktade blodprover för att bedöma allmänt hälsotillstånd och förebygga framtida sjukdom.'
         },
         {
-          title: 'Läkarintyg',
-          description: 'Olika läkarintyg för arbete, försäkring och andra ändamål. Professionell dokumentation utfärdas efter klinisk bedömning.'
-        },
-        {
-          title: 'Sjukskrivning',
-          description: 'Sjukintyg med sjukskrivning upp till 4 veckor beroende på tillstånd. Vi förnyar inte långvariga sjukskrivningar.'
+          title: 'Läkarintyg och sjukskrivning',
+          description: 'Olika läkarintyg och sjukintyg, med sjukskrivning upp till 4 veckor beroende på tillstånd. Vi förnyar inte långvariga sjukskrivningar.'
         }
       ],
       conditionsTitle: 'Vanliga tillstånd vi behandlar',
