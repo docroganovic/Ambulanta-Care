@@ -147,8 +147,8 @@ export const translations = {
     
     // Hero Section
     hero: {
-      title: 'Ambulanta Care – Privat medicinsk vård inom allmänmedicin och familjemedicin i Göteborg.',
-      subtitle: 'Boka hembesök eller videokonsultation direkt med legitimerad läkare och legitimerad distriktssköterska. Patienten betalar hela kostnaden själv; verksamheten är inte ansluten till den offentliga regionvården.',
+      title: 'Privat medicinsk vård inom allmänmedicin och familjemedicin i Göteborg.',
+      subtitle: 'Ambulanta Care erbjuder privata hembesök eller videokonsultationer direkt med legitimerad läkare och legitimerad distriktssköterska. Patienten betalar hela kostnaden själv; verksamheten är inte ansluten till den offentliga regionvården.',
       languages: 'Konsultationer erbjuds på svenska, engelska och serbokroatiska.',
       bookAppointment: 'Boka tid',
       learnMore: 'Läs mer',
