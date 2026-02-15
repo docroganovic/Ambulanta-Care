@@ -255,7 +255,8 @@ export const translations = {
       subtitle: 'Vi finns här för att svara på dina frågor och ge dig den vård du behöver',
       phone: 'Telefon',
       email: 'E-post',
-      address: 'Adress'
+      address: 'Tjänsteområde',
+      addressText: 'Vi kommer hem till dig i Göteborgsområdet.'
     },
     
     // Footer
