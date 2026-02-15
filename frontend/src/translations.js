@@ -316,12 +316,8 @@ export const translations = {
           description: 'Strukturisani sistematski pregledi sa kliničkim pregledom i ciljanim laboratorijskim analizama, radi procene opšteg zdravstvenog stanja i prevencije budućih bolesti.'
         },
         {
-          title: 'Lekarska uverenja',
-          description: 'Različita lekarska uverenja za posao, osiguranje i druge svrhe. Profesionalna dokumentacija nakon kliničke procene.'
-        },
-        {
-          title: 'Bolovanja',
-          description: 'Potvrde o bolovanju sa bolovanjem do 4 nedelje u zavisnosti od stanja. Ne produžavamo dugotrajna bolovanja.'
+          title: 'Lekarska uverenja i bolovanja',
+          description: 'Različita lekarska uverenja i potvrde o bolovanju, sa bolovanjem do 4 nedelje u zavisnosti od stanja. Ne produžavamo dugotrajna bolovanja.'
         }
       ],
       conditionsTitle: 'Stanja koja najčešće lečimo',
