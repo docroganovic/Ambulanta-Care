@@ -390,7 +390,8 @@ export const translations = {
       subtitle: 'Tu smo da odgovorimo na vaša pitanja i pružimo vam potrebnu negu',
       phone: 'Telefon',
       email: 'E-pošta',
-      address: 'Adresa'
+      address: 'Područje usluga',
+      addressText: 'Dolazimo kod vas na području Geteborga.'
     },
     
     // Footer
