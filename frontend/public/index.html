@@ -3,30 +3,35 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="A product of emergent.sh" />
+        <meta name="theme-color" content="#1B3A60" />
+        
+        <!-- Primary Meta Tags -->
+        <title>Ambulanta Care – Private doctor in Gothenburg</title>
+        <meta name="title" content="Ambulanta Care – Private doctor in Gothenburg" />
+        <meta name="description" content="Private medical services in family and general medicine. Home visits, video consultations, health checks, and medical certificates in Gothenburg. Licensed doctor and district nurse." />
+        <meta name="keywords" content="private doctor, family medicine, home visit, video consultation, health check, medical certificate, Gothenburg, allmänläkare, hembesök" />
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ambulantacare.se/" />
+        <meta property="og:title" content="Ambulanta Care – Private doctor in Gothenburg" />
+        <meta property="og:description" content="Private medical services in family and general medicine. Home visits, video consultations, health checks, and medical certificates in Gothenburg." />
+        <meta property="og:image" content="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/pfzt3b7e_Logo%20ambulanta%20care%20navy%20crop.png" />
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://ambulantacare.se/" />
+        <meta property="twitter:title" content="Ambulanta Care – Private doctor in Gothenburg" />
+        <meta property="twitter:description" content="Private medical services in family and general medicine. Home visits, video consultations, health checks, and medical certificates in Gothenburg." />
+        <meta property="twitter:image" content="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/pfzt3b7e_Logo%20ambulanta%20care%20navy%20crop.png" />
+        
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
-        <!--
-        manifest.json provides metadata used when your web app is installed on a
-        user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-        -->
-        <!--
-        Notice the use of %PUBLIC_URL% in the tags above.
-        It will be replaced with the URL of the `public` folder during the build.
-        Only files inside the `public` folder can be referenced from the HTML.
-
-        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-        work correctly both with client-side routing and a non-root public URL.
-        Learn how to configure a non-root public URL by running `npm run build`.
-        -->
-        <title>Emergent | Fullstack App</title>
+        
         <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
-        <!--
-        These two scripts have been added for the Visual Edits, please do not edit or remove them
-        -->
+        
         <script>
             // Only load visual edit scripts when inside an iframe
             if (window.self !== window.top) {
@@ -47,20 +52,17 @@
                 document.head.appendChild(tailwindScript);
             }
         </script>
+        
+        <!-- Hide Emergent Badge -->
+        <style>
+            #emergent-badge {
+                display: none !important;
+            }
+        </style>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
-        <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
         <a
             id="emergent-badge"
             target="_blank"
