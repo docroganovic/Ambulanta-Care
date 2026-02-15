@@ -203,6 +203,9 @@ const HomePage = () => {
               <p className="text-lg text-gray-700 leading-relaxed">
                 {t.hero.subtitle}
               </p>
+              <p className="text-base text-gray-600 italic">
+                {t.hero.languages}
+              </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button 
                   onClick={() => scrollToSection('booking')} 
