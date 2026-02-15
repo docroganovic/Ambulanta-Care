@@ -33,7 +33,7 @@ const HomePage = () => {
     }
   };
 
-  const serviceIcons = [Users, Heart, Home, Video, ClipboardCheck];
+  const serviceIcons = [Users, Heart, Home, Video, ClipboardCheck, FileCheck, FileText];
   const extraServiceIcons = [Stethoscope, FileText, ClipboardCheck];
 
   return (
