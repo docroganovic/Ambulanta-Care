@@ -182,8 +182,8 @@ const HomePage = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1645066928295-2506defde470" 
-                alt="Professional Healthcare" 
+                src="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/kgffjklj_home-photo.PNG" 
+                alt="Family Healthcare Protection" 
                 className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg hidden lg:block">
