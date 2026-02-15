@@ -230,7 +230,7 @@ export const translations = {
         },
         {
           title: 'Videokonsultation',
-          price: '2500 SEK',
+          price: '1500 SEK',
           duration: 'per konsultation',
           description: 'Upp till 60 minuter'
         },
