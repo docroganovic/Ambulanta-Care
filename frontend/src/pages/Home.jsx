@@ -467,7 +467,7 @@ const HomePage = () => {
                 <img 
                   src="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/5ab3wjxs_Transparent%20logo.png" 
                   alt="Ambulanta Care Logo" 
-                  className="h-16 w-auto"
+                  className="h-20 w-auto"
                 />
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
