@@ -13,7 +13,7 @@ export const translations = {
     // Hero Section
     hero: {
       title: 'Private medical services in family and general medicine in Gothenburg.',
-      subtitle: 'Ambulanta Care offers private home visits or video consultations directly with a licensed doctor and a licensed district nurse. Patients pay the full cost of the visit; there is no affiliation with the public regional healthcare system.',
+      subtitle: 'Ambulanta Care offers private home visits and video consultations, available in the evening and at night, with a licensed doctor and a licensed district nurse. Your medical records and medical history are kept private and are not accessible to other healthcare providers. Ambulanta Care operates independently and is not affiliated with the public regional healthcare system. Laboratory tests can be ordered upon request and are carried out through Synlab at an additional cost.',
       languages: 'Consultations available in Swedish, English and Serbo‑Croatian.',
       bookAppointment: 'Book Appointment',
       learnMore: 'Learn More',
@@ -89,14 +89,20 @@ export const translations = {
       items: [
         {
           title: 'Home Visit',
-          price: '2500 SEK',
-          duration: 'per 60 minutes',
+          oldPrice: '2000 SEK',
+          price: '1000 SEK',
+          oldPriceEvening: '2500 SEK',
+          priceEvening: '1250 SEK',
+          duration: 'until 20:00 / 20:00-04:00',
+          discount: '50% OFF',
           description: 'Clinical assessment, diagnostics and treatment included'
         },
         {
           title: 'Video Consultation',
-          price: '1500 SEK',
+          oldPrice: '1000 SEK',
+          price: '750 SEK',
           duration: 'per consultation',
+          discount: '25% OFF',
           description: 'Up to 60 minutes'
         },
         {
@@ -148,7 +154,7 @@ export const translations = {
     // Hero Section
     hero: {
       title: 'Privat medicinsk vård inom allmänmedicin och familjemedicin i Göteborg.',
-      subtitle: 'Ambulanta Care erbjuder privata hembesök eller videokonsultationer direkt med legitimerad läkare och legitimerad distriktssköterska. Patienten betalar hela kostnaden själv; verksamheten är inte ansluten till den offentliga regionvården.',
+      subtitle: 'Ambulanta Care erbjuder privata hembesök och videokonsultationer, tillgängliga kvälls- och nattetid, med legitimerad läkare och legitimerad distriktssköterska. Dina medicinska journaler och din medicinska historia hanteras konfidentiellt och är inte åtkomliga för andra vårdgivare. Ambulanta Care är inte ansluten till den offentliga vården. Provtagning kan beställas enligt önskemål och utförs via Synlab mot tillkommande kostnad.',
       languages: 'Konsultationer erbjuds på svenska, engelska och serbokroatiska.',
       bookAppointment: 'Boka tid',
       learnMore: 'Läs mer',
@@ -224,14 +230,20 @@ export const translations = {
       items: [
         {
           title: 'Hembesök',
-          price: '2500 SEK',
-          duration: 'per 60 minuter',
+          oldPrice: '2000 SEK',
+          price: '1000 SEK',
+          oldPriceEvening: '2500 SEK',
+          priceEvening: '1250 SEK',
+          duration: 'till 20:00 / 20:00-04:00',
+          discount: '50% RABATT',
           description: 'Klinisk bedömning, diagnostik och behandling ingår'
         },
         {
           title: 'Videokonsultation',
-          price: '1500 SEK',
+          oldPrice: '1000 SEK',
+          price: '750 SEK',
           duration: 'per konsultation',
+          discount: '25% RABATT',
           description: 'Upp till 60 minuter'
         },
         {
@@ -283,7 +295,7 @@ export const translations = {
     // Hero Section
     hero: {
       title: 'Privatne medicinske usluge iz porodične i opšte medicine u Geteborgu.',
-      subtitle: 'Ambulanta Care nudi privatne kućne posete ili video konsultacije direktno sa licenciranim lekarom i licenciranom medicinskom sestrom za rad u zajednici (district nurse). Pacijenti sami snose punu cenu pregleda; nema ugovora sa javnim regionalnim zdravstvenim sistemom.',
+      subtitle: 'Ambulanta Care nudi privatne kućne posete i video-konsultacije, dostupne uveče i noću, sa licenciranim lekarom i licenciranom patronažnom medicinskom sestrom. Vaši medicinski zapisi i medicinska istorija čuvaju se poverljivo i nisu dostupni drugim zdravstvenim ustanovama. Ambulanta Care posluje nezavisno i nije povezana sa javnim regionalnim zdravstvenim sistemom. Laboratorijske analize mogu se naručiti po želji i obavljaju se preko Synlab-a uz dodatnu naknadu.',
       languages: 'Konsultacije su dostupne na švedskom, engleskom i srpskom.',
       bookAppointment: 'Zakažite termin',
       learnMore: 'Saznajte više',
@@ -359,14 +371,20 @@ export const translations = {
       items: [
         {
           title: 'Kućna poseta',
-          price: '2500 SEK',
-          duration: 'za 60 minuta',
+          oldPrice: '2000 SEK',
+          price: '1000 SEK',
+          oldPriceEvening: '2500 SEK',
+          priceEvening: '1250 SEK',
+          duration: 'do 20:00 / 20:00-04:00',
+          discount: '50% POPUST',
           description: 'Klinička procena, dijagnostika i lečenje uključeni'
         },
         {
           title: 'Video konsultacija',
-          price: '1500 SEK',
+          oldPrice: '1000 SEK',
+          price: '750 SEK',
           duration: 'po konsultaciji',
+          discount: '25% POPUST',
           description: 'Do 60 minuta'
         },
         {

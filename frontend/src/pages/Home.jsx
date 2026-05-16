@@ -33,6 +33,11 @@ const HomePage = () => {
     }
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setMobileMenuOpen(false);
+  };
+
   const serviceIcons = [Users, Heart, Home, Video, ClipboardCheck, FileCheck];
   const extraServiceIcons = [Stethoscope, FileText, ClipboardCheck];
 
@@ -42,8 +47,8 @@ const HomePage = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <nav className="container mx-auto px-4 lg:px-8">
           <div className="flex items-center justify-between h-20">
-            {/* Logo Only */}
-            <div className="flex items-center">
+            {/* Logo Only - Clickable */}
+            <div className="flex items-center cursor-pointer" onClick={scrollToTop}>
               <img 
                 src="https://customer-assets.emergentagent.com/job_home-visit-clinic/artifacts/pfzt3b7e_Logo%20ambulanta%20care%20navy%20crop.png" 
                 alt="Ambulanta Care Logo" 
@@ -346,10 +351,31 @@ const HomePage = () => {
               >
                 <CardContent className="p-8 text-center">
                   <h3 className="text-xl font-bold text-navy-900 mb-4">{item.title}</h3>
+                  
+                  {item.discount && (
+                    <div className="mb-2">
+                      <span className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
+                        {item.discount}
+                      </span>
+                    </div>
+                  )}
+                  
                   <div className="mb-6">
+                    {item.oldPrice && (
+                      <div className="mb-2">
+                        <span className="text-2xl text-gray-400 line-through">{item.oldPrice}</span>
+                        {item.oldPriceEvening && (
+                          <span className="text-2xl text-gray-400 line-through ml-2">/ {item.oldPriceEvening}</span>
+                        )}
+                      </div>
+                    )}
                     <span className="text-4xl font-bold text-navy-800">{item.price}</span>
-                    <p className="text-gray-600 mt-2">{item.duration}</p>
+                    {item.priceEvening && (
+                      <span className="text-4xl font-bold text-navy-800"> / {item.priceEvening}</span>
+                    )}
+                    <p className="text-gray-600 mt-2 text-sm">{item.duration}</p>
                   </div>
+                  
                   <p className="text-gray-700 mb-6">{item.description}</p>
                   {index < 2 && (
                     <Button 
@@ -500,6 +526,15 @@ const HomePage = () => {
           </div>
         </div>
       </footer>
+
+      {/* Mobile Floating Phone Button */}
+      <a
+        href="tel:+46737354354"
+        className="lg:hidden fixed bottom-6 right-6 z-50 bg-navy-800 hover:bg-navy-900 text-white p-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 flex items-center justify-center"
+        aria-label="Call us"
+      >
+        <Phone className="h-6 w-6" />
+      </a>
     </div>
   );
 };
