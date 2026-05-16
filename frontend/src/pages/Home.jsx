@@ -522,7 +522,7 @@ const HomePage = () => {
           </div>
 
           <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Ambulanta Roganovic AB. {t.footer.copyright}</p>
+            <p>&copy; {new Date().getFullYear()} Ambulanta Care. {t.footer.copyright}</p>
           </div>
         </div>
       </footer>
