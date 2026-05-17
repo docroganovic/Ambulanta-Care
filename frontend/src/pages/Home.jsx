@@ -243,7 +243,7 @@ const HomePage = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-600">{t.hero.callUs}</p>
-                    <p className="text-lg font-semibold text-navy-900">+46 737 35 43 54</p>
+                    <p className="text-lg font-semibold text-navy-900">+46 737 354 354</p>
                   </div>
                 </div>
               </div>
@@ -435,7 +435,7 @@ const HomePage = () => {
                 </div>
                 <h3 className="text-lg font-bold text-navy-900 mb-2">{t.contact.phone}</h3>
                 <a href="tel:+46737354354" className="text-gray-700 hover:text-navy-800 transition-colors">
-                  +46 737 35 43 54
+                  +46 737 354 354
                 </a>
               </CardContent>
             </Card>
