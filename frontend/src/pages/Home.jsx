@@ -507,7 +507,7 @@ const HomePage = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-gray-300" />
-                  <span className="text-gray-300">+46 737 35 43 54</span>
+                  <span className="text-gray-300">+46 737 354 354</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="h-5 w-5 text-gray-300" />
